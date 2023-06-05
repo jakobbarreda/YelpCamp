@@ -1,7 +1,7 @@
 {
   "name": "yelpcamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a website that displays campgrounds around the world. You are able to register as a new user and also login\r if you already have an account. this process is using authentication client side and server side to check if you\r are a valid user or with login credentials. this also controls what your able to do as a user, like being able\r to create a campground if your logged in or creating a review for the campsite. all the data like the users,\r campgrounds and reviews are being stored with mongo's database. your able to navigate with the world map or the listings.\r clicking on the campsite on the map will take you directly to that specific campsite\r Anybody is able to add a campground with all the dtails as long as they are a registered user. Only that user can\r delete/edit the campground details. Users are able to leave a review on the campground along with a star rating.\r You are able to see any campsite that users have put up for others to see.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,5 +31,6 @@
     "passport-local-mongoose": "^7.1.2",
     "postcss-sanitize": "^0.0.9",
     "sanitize-html": "^2.10.0"
-  }
+  },
+  "devDependencies": {}
 }
